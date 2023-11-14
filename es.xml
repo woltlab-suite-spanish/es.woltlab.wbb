@@ -528,7 +528,7 @@
 		<item name="wbb.thread.markAsBestAnswer"><![CDATA[Marcar como "Mejor respuesta"]]></item>
 		<item name="wbb.thread.unmarkAsBestAnswer"><![CDATA[Desmarcar como "Mejor respuesta"]]></item>
 		<item name="wbb.thread.markAsBestAnswer.confirmMessage"><![CDATA[¿Realmente quieres marcar este post como "Mejor respuesta"?]]></item>
-		<item name="wbb.thread.condition.age"><![CDATA[Edad]]></item>
+		<item name="wbb.thread.condition.age"><![CDATA[Antigüedad]]></item>
 		<item name="wbb.thread.condition.age.description"><![CDATA[Número de días desde la creación del tema]]></item>
 		<item name="wbb.thread.bbcode.type"><![CDATA[Tema]]></item>
 		<item name="wbb.thread.userThreads"><![CDATA[Temas de {$user->username}]]></item>
@@ -544,7 +544,7 @@
 		<item name="wbb.thread.status.watching.description"><![CDATA[Recibir notificaciones de nuevos posts, menciones, citas y reacciones.]]></item>
 		<item name="wbb.thread.status.ignoring"><![CDATA[Ignorado]]></item>
 		<item name="wbb.thread.status.ignoring.description"><![CDATA[El tema está oculto y no recibirás ninguna notificación.]]></item>
-		<item name="wbb.thread.condition.lastPostAge"><![CDATA[Edad del último post]]></item>
+		<item name="wbb.thread.condition.lastPostAge"><![CDATA[Antigüedad del último post]]></item>
 		<item name="wbb.thread.condition.lastPostAge.description"><![CDATA[Número de días transcurridos desde el útimo post]]></item>
 	</category>
 	<category name="wbb.thread.edit">
