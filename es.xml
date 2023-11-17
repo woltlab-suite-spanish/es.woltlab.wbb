@@ -119,7 +119,7 @@
 		<item name="wbb.acp.rssFeed.add"><![CDATA[Añadir canal RSS]]></item>
 		<item name="wbb.acp.rssFeed.edit"><![CDATA[Editar canal RSS]]></item>
 		<item name="wbb.acp.rssFeed.lastRun"><![CDATA[Última comprobación]]></item>
-		<item name="wbb.acp.rssFeed.url"><![CDATA[Feed URL]]></item>
+		<item name="wbb.acp.rssFeed.url"><![CDATA[URL del canal]]></item>
 		<item name="wbb.acp.rssFeed.url.description"><![CDATA[Introduce aquí la URL del canal RSS.]]></item>
 		<item name="wbb.acp.rssFeed.searchKeywords"><![CDATA[Filtrar por palabras clave]]></item>
 		<item name="wbb.acp.rssFeed.searchKeywords.description"><![CDATA[Opcionalmente, puedes considerar la obtención de entradas con las palabras clave especificadas anteriormente, todas las demás entradas serán omitidas. Separa múltiples palabras clave con una coma.]]></item>
@@ -335,10 +335,10 @@
 		<item name="wbb.post.option.removeEditNote.description"><![CDATA[Elimina la nota “Post editado por …”.]]></item>
 		<item name="wbb.post.option.showEditNote"><![CDATA[Mostrar nota de edición]]></item>
 		<item name="wbb.post.option.showEditNote.description"><![CDATA[Añade la nota “Post editado por …”.]]></item>
-		<item name="wbb.post.delete"><![CDATA[Delete post]]></item>
-		<item name="wbb.post.delete.sure"><![CDATA[Move this post to trash]]></item>
+		<item name="wbb.post.delete"><![CDATA[Eliminar post]]></item>
+		<item name="wbb.post.delete.sure"><![CDATA[Mover este post a la papelera]]></item>
 		<item name="wbb.post.deleteReason"><![CDATA[Motivo (opcional)]]></item>
-		<item name="wbb.post.closed"><![CDATA[Post Editing Has Been Prohibited]]></item>
+		<item name="wbb.post.closed"><![CDATA[Se ha prohibido la edición del post]]></item>
 		<item name="wbb.post.copy.title"><![CDATA[Copiar posts]]></item>
 		<item name="wbb.post.userPosts"><![CDATA[Posts de {$user->username}]]></item>
 		<item name="wbb.post.ignoredUser"><![CDATA[El post de {$__ignoredUser->username} ha sido ocultado.]]></item>
@@ -397,7 +397,7 @@
 		<item name="wbb.thread.moved"><![CDATA[Movido]]></item>
 		<item name="wbb.thread.newPosts"><![CDATA[{literal}Cargar {if $newPostsCount == 1}un post nuevo{else}{#$newPostsCount} posts nuevos{/if}{/literal}]]></item>
 		<item name="wbb.thread.newPosts.nextPage"><![CDATA[Mostrar {if $count == 1}un post nuevo{else}{#$count} posts nuevos{/if} (siguiente página)]]></item>
-		<item name="wbb.thread.ownPosts"><![CDATA[Thread contains your own posts]]></item>
+		<item name="wbb.thread.ownPosts"><![CDATA[Este tema contiene posts tuyos]]></item>
 		<item name="wbb.thread.replies"><![CDATA[Respuestas]]></item>
 		<item name="wbb.thread.reply"><![CDATA[Responder a este tema …]]></item>
 		<item name="wbb.thread.sticky"><![CDATA[Fijado]]></item>
