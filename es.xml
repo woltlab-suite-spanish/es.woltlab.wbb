@@ -1005,7 +1005,7 @@
 		<item name="wcf.user.notification.com.woltlab.wbb"><![CDATA[Foro]]></item>
 		<item name="wcf.user.notification.com.woltlab.wbb.post.post"><![CDATA[Notificarme nuevos respuestas en temas suscritos]]></item>
 		<item name="wcf.user.notification.com.woltlab.wbb.post.quote"><![CDATA[Notificarme cuando me citen]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.post.mention"><![CDATA[Notifíqueme cuando me mencionen]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.post.mention"><![CDATA[Notificarme cuando me mencionen]]></item>
 		<item name="wcf.user.notification.com.woltlab.wbb.likeablePost.notification.like"><![CDATA[Notificarme cuando alguien reaccione a mis posts]]></item>
 		<item name="wcf.user.notification.com.woltlab.wbb.thread.thread"><![CDATA[Notificarme nuevos temas en foros suscritos]]></item>
 		<item name="wcf.user.notification.com.woltlab.wbb.moderation.post.moderate"><![CDATA[Notificarme cuando mi post sea moderado]]></item>
