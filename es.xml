@@ -497,7 +497,7 @@
 		<item name="wbb.thread.button.jumpToArticleThread"><![CDATA[Tema de discusión]]></item>
 		<item name="wbb.thread.articleThread.info"><![CDATA[{#$articleThread->replies} {if $articleThread->replies == 1}respuesta{else}respuestas{/if}{if $articleThread->replies > 0}, última: {@$articleThread->lastPostTime|time}{/if}]]></item>
 		<item name="wbb.thread.articleThread.subject"><![CDATA[{@$articleContent->getTitle()}]]></item>
-		<item name="wbb.thread.articleThread.message"><![CDATA[<p>Artículo de discusión <a href="{@$articleContent->getLink()}">{@$articleContent->getTitle()}</a>:</p>
+		<item name="wbb.thread.articleThread.message"><![CDATA[<p>{$article->username} ha escrito un nuevo artículo:<br>[wsa]{$article->articleID}[/wsa]</p>
 <woltlab-quote>{@$articleContent->getFormattedTeaser()}</woltlab-quote>]]></item>
 		<item name="wbb.thread.sortField.activity"><![CDATA[Actividad]]></item>
 		<item name="wbb.thread.sortField.cumulativeLikes"><![CDATA[Reacciones]]></item>
@@ -529,7 +529,7 @@
 		<item name="wbb.thread.unmarkAsBestAnswer"><![CDATA[Desmarcar como "Mejor respuesta"]]></item>
 		<item name="wbb.thread.markAsBestAnswer.confirmMessage"><![CDATA[¿Realmente quieres marcar este post como "Mejor respuesta"?]]></item>
 		<item name="wbb.thread.condition.age"><![CDATA[Antigüedad]]></item>
-		<item name="wbb.thread.condition.age.description"><![CDATA[Número de días desde la creación del tema]]></item>
+		<item name="wbb.thread.condition.age.description"><![CDATA[Número de días desde la creación del tema.]]></item>
 		<item name="wbb.thread.bbcode.type"><![CDATA[Tema]]></item>
 		<item name="wbb.thread.userThreads"><![CDATA[Temas de {$user->username}]]></item>
 		<item name="wbb.thread.delayedPublication"><![CDATA[Este tema se publicará el {@$thread->enableTime|plainTime}.]]></item>
@@ -545,7 +545,7 @@
 		<item name="wbb.thread.status.ignoring"><![CDATA[Ignorado]]></item>
 		<item name="wbb.thread.status.ignoring.description"><![CDATA[El tema está oculto y no recibirás ninguna notificación.]]></item>
 		<item name="wbb.thread.condition.lastPostAge"><![CDATA[Antigüedad del último post]]></item>
-		<item name="wbb.thread.condition.lastPostAge.description"><![CDATA[Número de días transcurridos desde el útimo post]]></item>
+		<item name="wbb.thread.condition.lastPostAge.description"><![CDATA[Número de días transcurridos desde el útimo post.]]></item>
 	</category>
 	<category name="wbb.thread.edit">
 		<item name="wbb.thread.edit.advanced"><![CDATA[Más opciones]]></item>
