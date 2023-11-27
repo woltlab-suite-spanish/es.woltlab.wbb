@@ -855,7 +855,7 @@
 		<item name="wcf.acp.option.wbb_thread_enable_tags"><![CDATA[Habilitar tags de temas]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_tags.description"><![CDATA[Permite asignar tags a cada tema, que también se muestran en la nube de tags.]]></item>
 		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle"><![CDATA[Marcar automáticamente temas como resueltos]]></item>
-		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Los temas se marcan como resueltos en los días siguientes, en función de la hora de la última respuesta. Utilice 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Los temas se marcan como resueltos en los días siguientes, en función de la hora de la última respuesta. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_thread_min_char_length"><![CDATA[Longitud mínima del título del tema]]></item>
 		<item name="wcf.acp.option.wbb_thread_min_word_count"><![CDATA[Longitud mínima de las palabras del título]]></item>
 		<item name="wcf.acp.option.wbb_thread_moderation_notification_show_moderator"><![CDATA[Mostrar moderador para las notificaciones]]></item>
