@@ -11,7 +11,7 @@ Idioma español para **WoltLab Suite Forum** desarrollado por WoltLab GmbH.
 * [WoltLab Suite Gallery](https://github.com/woltlab-suite-es/es.woltlab.gallery)
 * [WoltLab Suite Blog](https://github.com/woltlab-suite-es/es.woltlab.blog)
     * [WoltLab Suite Blog: Article Threads](https://github.com/woltlab-suite-es/es.woltlab.blog.entryThread)
-* [WoltLab Suite Calendar](https://github.com/woltlab-suite-es/es.private.calendar)
+* [WoltLab Suite Calendar](https://github.com/woltlab-suite-es/es.woltlab.calendar)
     * [WoltLab Suite Calendar: Event Threads](https://github.com/woltlab-suite-es/es.woltlab.calendar.eventThread)
 * [WoltLab Suite Filebase](https://github.com/woltlab-suite-es/es.woltlab.filebase)
     * [WoltLab Suite Filebase: Support Threads](https://github.com/woltlab-suite-es/es.woltlab.filebase.supportThread)
@@ -20,8 +20,8 @@ Idioma español para **WoltLab Suite Forum** desarrollado por WoltLab GmbH.
 Descarga el archivo de idioma `es.xml` y súbelo a `Administration Panel Control > Customization > Languages > Import Language`.
 Deberás subir cada paquete de idioma por separado.
 
-### Cómo evitar símbolos y carácteres especiales en las URL
-Consulta los [ajustes de reescritura de URLs para el idioma español](https://github.com/TranslationsLabEs/es.private.wcf/issues/13). Ahí compartimos las reglas para ajustar las URLs a la forma en la que estamos acostumbrados en los sitios en español y te explicamos cómo establecerlas en tu instalación de WoltLab Suite.
+### Cómo evitar símbolos y caracteres especiales en las URL
+Consulta los [ajustes de reescritura de URLs para el idioma español](https://github.com/woltlab-suite-es/es.woltlab.wcf/issues/14). Ahí compartimos las reglas para ajustar las URLs a la forma en la que estamos acostumbrados en los sitios en español y te explicamos cómo establecerlas en tu instalación de WoltLab Suite.
 
 ### Licencia
 Traducción realizada por [Aethior](https://github.com/aethior) (aethior en gmail.com).
