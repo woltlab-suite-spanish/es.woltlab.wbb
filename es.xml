@@ -164,7 +164,7 @@
 		<item name="wbb.acp.thread.bulkProcessing.enable"><![CDATA[Aprobar]]></item>
 		<item name="wbb.acp.thread.bulkProcessing.close"><![CDATA[Cerrar]]></item>
 		<item name="wbb.acp.thread.bulkProcessing.open"><![CDATA[Abrir]]></item>
-		<item name="wbb.acp.thread.bulkProcessing.removeLink"><![CDATA[Eliminar avisos de redirección]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.removeLink"><![CDATA[Eliminar aviso de redirección]]></item>
 		<item name="wbb.acp.thread.bulkProcessing.markAsDone"><![CDATA[Marcar como resuelto]]></item>
 		<item name="wbb.acp.thread.bulkProcessing.markAsUndone"><![CDATA[Marcar como no resuelto]]></item>
 		<item name="wbb.acp.thread.bulkProcessing.changeLanguage"><![CDATA[Cambiar idioma]]></item>
@@ -448,9 +448,9 @@
 		<item name="wbb.thread.condition.state.isClosed"><![CDATA[Cerrado]]></item>
 		<item name="wbb.thread.condition.state.isClosed.error.conflict"><![CDATA[“Cerrado” y “Abierto” no pueden seleccionarse al mismo tiempo.]]></item>
 		<item name="wbb.thread.condition.state.isOpen"><![CDATA[Abierto]]></item>
-		<item name="wbb.thread.condition.state.isLink"><![CDATA[Enlace]]></item>
-		<item name="wbb.thread.condition.state.isLink.error.conflict"><![CDATA[“Enlace” y “No enlace” no pueden seleccionarse al mismo tiempo.]]></item>
-		<item name="wbb.thread.condition.state.isNoLink"><![CDATA[No Redirection Notice]]></item>
+		<item name="wbb.thread.condition.state.isLink"><![CDATA[Aviso de redirección]]></item>
+		<item name="wbb.thread.condition.state.isLink.error.conflict"><![CDATA["Aviso de redirección y “No es aviso de redirección” no pueden seleccionarse al mismo tiempo.]]></item>
+		<item name="wbb.thread.condition.state.isNoLink"><![CDATA[No es aviso de redirección]]></item>
 		<item name="wbb.thread.condition.state.isAnnouncement"><![CDATA[Anuncio]]></item>
 		<item name="wbb.thread.condition.state.isAnnouncement.error.conflict.sticky"><![CDATA[“Anuncio” y “Fijado” no pueden seleccionarse al mismo tiempo.]]></item>
 		<item name="wbb.thread.condition.state.isSticky"><![CDATA[Fijado]]></item>
