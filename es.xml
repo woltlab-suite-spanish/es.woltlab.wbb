@@ -553,7 +553,7 @@
 		<item name="wbb.thread.edit.close"><![CDATA[Cerrar]]></item>
 		<item name="wbb.thread.edit.delete"><![CDATA[Eliminar]]></item>
 		<item name="wbb.thread.edit.done"><![CDATA[Marcar como resuelto]]></item>
-		<item name="wbb.thread.edit.disable"><![CDATA[Disable]]></item>
+		<item name="wbb.thread.edit.disable"><![CDATA[Desactivar]]></item>
 		<item name="wbb.thread.edit.enable"><![CDATA[Aprobar]]></item>
 		<item name="wbb.thread.edit.merge"><![CDATA[Fusionar temas]]></item>
 		<item name="wbb.thread.edit.merge.description"><![CDATA[Por favor, selecciona el tema de destino en el que se fusionarán los mensajes.]]></item>
