@@ -20,7 +20,7 @@
 		<item name="wbb.acp.board.isClosed"><![CDATA[Archivo (no permitir nuevos posts)]]></item>
 		<item name="wbb.acp.board.isInvisible"><![CDATA[Ocultar foro en la lista de los foros]]></item>
 		<item name="wbb.acp.board.isPrivate"><![CDATA[Los temas son privados]]></item>
-		<item name="wbb.acp.board.isPrivate.description"><![CDATA[Los usuarios ordinarios sólo pueden leer y responder a sus propios temas.]]></item>
+		<item name="wbb.acp.board.isPrivate.description"><![CDATA[Los usuarios ordinarios solo pueden leer y responder a sus propios temas.]]></item>
 		<item name="wbb.acp.board.enableMarkingAsDone"><![CDATA[Habilitar el marcado de temas como resueltos]]></item>
 		<item name="wbb.acp.board.enableBestAnswer"><![CDATA[Habilitar el marcado de posts como "Mejor respuesta"]]></item>
 		<item name="wbb.acp.board.parentID"><![CDATA[Foro superior]]></item>
@@ -219,7 +219,7 @@
 		<item name="wbb.board.board"><![CDATA[Foro]]></item>
 		<item name="wbb.board.status.normal"><![CDATA[No suscrito]]></item>
 		<item name="wbb.board.status.normal.description"><![CDATA[No recibir notificaciones de nuevos temas o nuevos posts en temas no suscritos.]]></item>
-		<item name="wbb.board.status.threadsOnly"><![CDATA[Suscrito (Sólo temas)]]></item>
+		<item name="wbb.board.status.threadsOnly"><![CDATA[Suscrito (Solo temas)]]></item>
 		<item name="wbb.board.status.threadsOnly.description"><![CDATA[Recibir notificaciones de nuevos temas.]]></item>
 		<item name="wbb.board.status.ignoring"><![CDATA[Ignorado]]></item>
 		<item name="wbb.board.status.ignoring.description"><![CDATA[El foro está oculto y no recibirás ninguna notificación.]]></item>
@@ -233,7 +233,7 @@
 	</category>
 	<category name="wbb.condition">
 		<item name="wbb.condition.page.board"><![CDATA[Foros requeridos]]></item>
-		<item name="wbb.condition.page.board.description"><![CDATA[El aviso sólo se mostrará si el usuario activo está en uno de los foros seleccionados. Se pueden seleccionar varios elementos manteniendo pulsadas las teclas “Ctrl/Shift” (Windows) o “Comando” (Mac OS) y haciendo clic en los elementos deseados.]]></item>
+		<item name="wbb.condition.page.board.description"><![CDATA[El aviso solo se mostrará si el usuario activo está en uno de los foros seleccionados. Se pueden seleccionar varios elementos manteniendo pulsadas las teclas “Ctrl/Shift” (Windows) o “Comando” (Mac OS) y haciendo clic en los elementos deseados.]]></item>
 	</category>
 	<category name="wbb.index">
 		<item name="wbb.index.ignoreBoards"><![CDATA[Ignorar foros]]></item>
@@ -429,13 +429,13 @@
 		<item name="wbb.thread.copy.title"><![CDATA[Copiar tema ({$item} de {$count})]]></item>
 		<item name="wbb.thread.conditions"><![CDATA[Tema]]></item>
 		<item name="wbb.thread.condition.currentBoard"><![CDATA[Restringir al foro actual]]></item>
-		<item name="wbb.thread.condition.currentBoard.description"><![CDATA[Si la página pertenece a un foro determinado, sólo se seleccionarán los hilos de este foro.]]></item>
+		<item name="wbb.thread.condition.currentBoard.description"><![CDATA[Si la página pertenece a un foro determinado, solo se seleccionarán los hilos de este foro.]]></item>
 		<item name="wbb.thread.condition.displayMode"><![CDATA[Modo de visualización]]></item>
 		<item name="wbb.thread.condition.displayMode.firstPostExcerpt"><![CDATA[Vista previa del primer post]]></item>
-		<item name="wbb.thread.condition.displayMode.description"><![CDATA[El modo de visualización seleccionado sólo es relevante si los temas no se mostrarán en una barra lateral.]]></item>
+		<item name="wbb.thread.condition.displayMode.description"><![CDATA[El modo de visualización seleccionado solo es relevante si los temas no se mostrarán en una barra lateral.]]></item>
 		<item name="wbb.thread.condition.displayMode.table"><![CDATA[Tabla]]></item>
-		<item name="wbb.thread.condition.isUnread.lastPostTime"><![CDATA[Sólo temas cuyo último mensaje no está leído]]></item>
-		<item name="wbb.thread.condition.isUnread.time"><![CDATA[Sólo temas cuyo primer mensaje no está leído]]></item>
+		<item name="wbb.thread.condition.isUnread.lastPostTime"><![CDATA[Solo temas cuyo último mensaje no está leído]]></item>
+		<item name="wbb.thread.condition.isUnread.time"><![CDATA[Solo temas cuyo primer mensaje no está leído]]></item>
 		<item name="wbb.thread.condition.lastPostTime"><![CDATA[Última respuesta]]></item>
 		<item name="wbb.thread.condition.replies"><![CDATA[Respuestas]]></item>
 		<item name="wbb.thread.condition.state"><![CDATA[Estado]]></item>
@@ -462,9 +462,9 @@
 		<item name="wbb.thread.condition.state.isUndone"><![CDATA[No resuelto]]></item>
 		<item name="wbb.thread.condition.time"><![CDATA[Fecha]]></item>
 		<item name="wbb.thread.condition.subscription"><![CDATA[Suscripción]]></item>
-		<item name="wbb.thread.condition.subscription.boardSubscription"><![CDATA[Sólo temas en foros suscritos]]></item>
+		<item name="wbb.thread.condition.subscription.boardSubscription"><![CDATA[Solo temas en foros suscritos]]></item>
 		<item name="wbb.thread.condition.subscription.boardOrThreadSubscription"><![CDATA[Temas suscritos y temas en foros suscritos]]></item>
-		<item name="wbb.thread.condition.subscription.threadSubscription"><![CDATA[Sólo temas suscritos]]></item>
+		<item name="wbb.thread.condition.subscription.threadSubscription"><![CDATA[Solo temas suscritos]]></item>
 		<item name="wbb.thread.condition.views"><![CDATA[Visitas]]></item>
 		<item name="wbb.thread.condition.username"><![CDATA[Creado por]]></item>
 		<item name="wbb.thread.condition.username.description"><![CDATA[Múltiples usuarios deben separarse por comas.]]></item>
@@ -820,7 +820,7 @@
 		<item name="wcf.acp.option.category.board.post.edit"><![CDATA[Edición de posts]]></item>
 		<item name="wcf.acp.option.wbb_index_enable_stats"><![CDATA[Mostrar estadísticas del foro]]></item>
 		<item name="wcf.acp.option.wbb_board_default_days_prune"><![CDATA[Periodo de tiempo]]></item>
-		<item name="wcf.acp.option.wbb_board_default_days_prune.description"><![CDATA[Sólo se muestran los temas del periodo de tiempo establecido.]]></item>
+		<item name="wcf.acp.option.wbb_board_default_days_prune.description"><![CDATA[Solo se muestran los temas del periodo de tiempo establecido.]]></item>
 		<item name="wcf.acp.option.wbb_board_default_sort_field"><![CDATA[Ordenar por]]></item>
 		<item name="wcf.acp.option.wbb_board_default_sort_field.description"><![CDATA[Elige la opción de ordenación por defecto de los temas.]]></item>
 		<item name="wcf.acp.option.wbb_board_default_sort_order"><![CDATA[Orden de clasificación]]></item>
@@ -873,15 +873,15 @@
 		<item name="wcf.acp.option.wbb_article_thread_board_id"><![CDATA[Foro]]></item>
 		<item name="wcf.acp.option.wbb_article_thread_board_id.description"><![CDATA[Se crearán temas de discusión en el foro seleccionado.]]></item>
 		<item name="wcf.acp.option.wbb_article_thread_categories"><![CDATA[Categorías]]></item>
-		<item name="wcf.acp.option.wbb_article_thread_categories.description"><![CDATA[Crear temas de discusión sólo para los artículos de las categorías seleccionadas.]]></item>
+		<item name="wcf.acp.option.wbb_article_thread_categories.description"><![CDATA[Crear temas de discusión solo para los artículos de las categorías seleccionadas.]]></item>
 		<item name="wcf.acp.option.wbb_article_thread_single_board"><![CDATA[Foro único para todas las categorías]]></item>
 		<item name="wcf.acp.option.wbb_article_thread_single_board.description"><![CDATA[Los temas de discusión se crearán en el foro especificado independientemente de las categorías seleccionadas. Si desactivas esta función, podrás editar las categorías deseadas y asignarles un foro específico.]]></item>
 		<item name="wcf.acp.option.wbb_thread_guest_max_posts"><![CDATA[Número de posts mostrados para invitados]]></item>
-		<item name="wcf.acp.option.wbb_thread_guest_max_posts.description"><![CDATA[Sólo se mostrarán a los invitados los primeros mensajes hasta el límite configurado. Los temas con más respuestas mostrarán un aviso para animar a los visitantes a registrarse o iniciar sesión. Utiliza 0 para mostrar siempre todos los mensajes.]]></item>
+		<item name="wcf.acp.option.wbb_thread_guest_max_posts.description"><![CDATA[Solo se mostrarán a los invitados los primeros mensajes hasta el límite configurado. Los temas con más respuestas mostrarán un aviso para animar a los visitantes a registrarse o iniciar sesión. Utiliza 0 para mostrar siempre todos los mensajes.]]></item>
 		<item name="wcf.acp.option.wbb_board_users_online_filter"><![CDATA[Filtrar la lista de “Usuarios en línea” en los foros]]></item>
-		<item name="wcf.acp.option.wbb_board_users_online_filter.description"><![CDATA[En la lista “Usuarios en línea” sólo se muestran los usuarios que también están actualmente en el foro visitado.]]></item>
+		<item name="wcf.acp.option.wbb_board_users_online_filter.description"><![CDATA[En la lista “Usuarios en línea” solo se muestran los usuarios que también están actualmente en el foro visitado.]]></item>
 		<item name="wcf.acp.option.wbb_thread_users_online_filter"><![CDATA[Filtrar la lista de “Usuarios en línea” en los temas]]></item>
-		<item name="wcf.acp.option.wbb_thread_users_online_filter.description"><![CDATA[En la lista “Usuarios en línea” sólo se muestran los usuarios que también están actualmente en el tema visitado.]]></item>
+		<item name="wcf.acp.option.wbb_thread_users_online_filter.description"><![CDATA[En la lista “Usuarios en línea” solo se muestran los usuarios que también están actualmente en el tema visitado.]]></item>
 		<item name="wcf.acp.option.wbb_official_post_default"><![CDATA[Valor por defecto para “Posts oficiales”]]></item>
 		<item name="wcf.acp.option.wbb_official_post_default.description"><![CDATA[Los posts se marcarán como “oficiales” por defecto si el usuario tiene permiso para crear mensajes oficiales.]]></item>
 	</category>
@@ -992,7 +992,7 @@
 		<item name="wcf.tagging.taggedObjects.com.woltlab.wbb.thread"><![CDATA[Temas etiquetados con “{$tag->name}”]]></item>
 	</category>
 	<category name="wcf.user">
-		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.post"><![CDATA[Posts <span class="jsTooltip" title="Sólo respuestas, excluidos los primeros mensajes">{icon name='circle-question'}</span>]]></item>
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.post"><![CDATA[Posts <span class="jsTooltip" title="Solo respuestas, excluidos los primeros mensajes">{icon name='circle-question'}</span>]]></item>
 		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.thread"><![CDATA[Temas]]></item>
 		<item name="wcf.user.boxList.description.wbbPosts"><![CDATA[{#$boxUser->wbbPosts} post{if $boxUser->wbbPosts != 1}s{/if}]]></item>
 		<item name="wcf.user.sortField.wbbPosts"><![CDATA[Posts]]></item>
