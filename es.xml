@@ -358,7 +358,7 @@
 		<item name="wbb.post.condition.username.description"><![CDATA[Múltiples usuarios deben separarse por comas.]]></item>
 		<item name="wbb.post.condition.board"><![CDATA[Foro]]></item>
 		<item name="wbb.post.reported"><![CDATA[El post ha sido reportado]]></item>
-		<item name="wbb.post.hiddenForGuests"><![CDATA[Este tema contiene {if $numberOfHiddenPosts == 1}un post más que ha sido ocultado{else}{#$numberOfHiddenPosts} posts más que han sido ocultados{/if} para los invitados, por favor {if !REGISTER_DISABLED}<a href="{link controller='Register'}{/link}">regístrate</a> o {/if}<a href="{link controller='Login'}{/link}">inicia sesión</a> para continuar leyendo.]]></item>
+		<item name="wbb.post.hiddenForGuests"><![CDATA[Este tema contiene {if $numberOfHiddenPosts == 1}un post más que ha sido ocultado{else}{#$numberOfHiddenPosts} posts más que han sido ocultados{/if} para los invitados, por favor, {if !REGISTER_DISABLED}<a href="{link controller='Register'}{/link}">regístrate</a> o {/if}<a href="{link controller='Login'}{/link}">inicia sesión</a> para continuar leyendo.]]></item>
 		<item name="wbb.post.bbcode.type"><![CDATA[Post]]></item>
 		<item name="wbb.post.option.markAsOfficial"><![CDATA[Marcar como “Oficial”]]></item>
 		<item name="wbb.post.option.markAsOfficial.description"><![CDATA[Los post oficiales se marcarán con un formato especial y se podrán encontrar más fácilmente.]]></item>
