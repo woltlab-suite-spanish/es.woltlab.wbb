@@ -40,7 +40,7 @@
 		<item name="wbb.acp.board.addSubboard"><![CDATA[Añadir subforo]]></item>
 		<item name="wbb.acp.board.parentID.error.invalid"><![CDATA[El foro superior seleccionado no es válido.]]></item>
 		<item name="wbb.acp.board.category.position"><![CDATA[Orden de visualización]]></item>
-		<item name="wbb.acp.board.position.description"><![CDATA[Elige el orden de visualización de los foros.]]></item>
+		<item name="wbb.acp.board.position.description"><![CDATA[Elige el orden de presentación de los foros.]]></item>
 		<item name="wbb.acp.board.isInvisible.description"><![CDATA[Este foro no está visible en la lista de foros, pero se puede acceder a él a través de un enlace directo.]]></item>
 		<item name="wbb.acp.board.button.choose"><![CDATA[Seleccionar foro]]></item>
 		<item name="wbb.acp.board.button.copy"><![CDATA[Copiar foro]]></item>
