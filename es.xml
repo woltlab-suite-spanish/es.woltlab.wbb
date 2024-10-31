@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="es" languagename="Español" countrycode="es">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd" languagecode="es">
 <import>
 	<category name="wbb.acp.board">
 		<item name="wbb.acp.board.boardType"><![CDATA[Tipo de foro]]></item>
@@ -358,7 +358,7 @@
 		<item name="wbb.post.condition.username.description"><![CDATA[Múltiples usuarios deben separarse por comas.]]></item>
 		<item name="wbb.post.condition.board"><![CDATA[Foro]]></item>
 		<item name="wbb.post.reported"><![CDATA[El post ha sido reportado]]></item>
-		<item name="wbb.post.hiddenForGuests"><![CDATA[Este tema contiene {if $numberOfHiddenPosts == 1}un post más que ha sido ocultado{else}{#$numberOfHiddenPosts} posts más que han sido ocultados{/if} para los invitados, por favor, {if !REGISTER_DISABLED}<a href="{link controller='Register'}{/link}">regístrate</a> o {/if}<a href="{link controller='Login'}{/link}">inicia sesión</a> para continuar leyendo.]]></item>
+		<item name="wbb.post.hiddenForGuests"><![CDATA[Este tema contiene {if $numberOfHiddenPosts == 1}un post más que ha sido ocultado{else}{#$numberOfHiddenPosts} posts más que han sido ocultados{/if} para los invitados.]]></item>
 		<item name="wbb.post.bbcode.type"><![CDATA[Post]]></item>
 		<item name="wbb.post.option.markAsOfficial"><![CDATA[Marcar como “Oficial”]]></item>
 		<item name="wbb.post.option.markAsOfficial.description"><![CDATA[Los post oficiales se marcarán con un formato especial y se podrán encontrar más fácilmente.]]></item>
@@ -490,7 +490,7 @@
 		<item name="wbb.thread.notification.moderate.restore.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha restaurado tu tema “{$thread->getTitle()}”.]]></item>
 		<item name="wbb.thread.boxList.description.lastPostTime"><![CDATA[{user object=$boxThread->getLastPosterProfile() tabindex='-1'} <span class="separatorLeft">{@$boxThread->lastPostTime|time}</span>]]></item>
 		<item name="wbb.thread.boxList.description.activity"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}respuesta{else}respuestas{/if}]]></item>
-		<item name="wbb.thread.boxList.description.hotness"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}respuesta{else}respuestas{/if}, {#$boxThread->views} visita{if $boxThread->views != 1}s{/if}, {$boxThread->time|dateDiff}]]></item>
+		<item name="wbb.thread.boxList.description.hotness"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}respuesta{else}respuestas{/if}, {$boxThread->time|dateDiff}]]></item>
 		<item name="wbb.thread.boxList.description.replies"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}respuesta{else}respuestas{/if}, última: {@$boxThread->lastPostTime|time}]]></item>
 		<item name="wbb.thread.boxList.description.views"><![CDATA[{#$boxThread->views} visita{if $boxThread->views != 1}s{/if}]]></item>
 		<item name="wbb.thread.boxList.description.cumulativeLikes"><![CDATA[{include file='__topReaction' cachedReactions=$boxThread->cachedReactions render='full'}]]></item>
@@ -1017,10 +1017,10 @@
 		<item name="wcf.user.option.watchThreadOnReply"><![CDATA[Suscribir automáticamente los temas en los que respondo]]></item>
 	</category>
 	<category name="wcf.user.profile">
-		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[Ha reaccionado con <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> a un <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post de {$post->username}</a> en el tema {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$thread class='wbbTopicLink'}.]]></item>
-		<item name="wcf.user.profile.recentActivity.post"><![CDATA[Ha respondido al tema {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">{$thread->topic}</a>.]]></item>
-		<item name="wcf.user.profile.recentActivity.thread"><![CDATA[Ha publicado el tema {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$thread class='wbbTopicLink'}.]]></item>
-		<item name="wcf.user.profile.recentActivity.bestAnswer"><![CDATA[Ha marcado <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">el post de {$post->username}</a> en el tema {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$thread class='wbbTopicLink'} como mejor respuesta.]]></item>
+		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[<strong>{$author}</strong> ha reaccionado con <span title="{$reactionType->getTitle()}" class="jsTooltip">{unsafe:$reactionType->renderIcon()}</span> al <strong>post the {$post->username}</strong> en el tema {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong>.]]></item>
+		<item name="wcf.user.profile.recentActivity.post"><![CDATA[<strong>{$author}</strong> ha respondido al tema {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong>.]]></item>
+		<item name="wcf.user.profile.recentActivity.thread"><![CDATA[<strong>{$author}</strong> ha publicado el team {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong>.]]></item>
+		<item name="wcf.user.profile.recentActivity.bestAnswer"><![CDATA[<strong>{$author}</strong> ha marcado el <strong>post de {$post->username}</strong> en el tema {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong> como mejor respuesta.]]></item>
 	</category>
 	<category name="wcf.user.recentActivity">
 		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.thread"><![CDATA[Tema]]></item>
