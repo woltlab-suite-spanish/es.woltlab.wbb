@@ -841,7 +841,7 @@
 		<item name="wcf.acp.option.wbb_post_min_char_length"><![CDATA[Longitud mínima del mensaje]]></item>
 		<item name="wcf.acp.option.wbb_post_min_word_count"><![CDATA[Número mínimo de palabras]]></item>
 		<item name="wcf.acp.option.wbb_reply_old_thread_warning"><![CDATA[Mostrar advertencia para temas antiguos]]></item>
-		<item name="wcf.acp.option.wbb_reply_old_thread_warning.description"><![CDATA[Los hilos antiguos se marcan como fechados en función de la hora de la última respuesta, los usuarios que intenten responder recibirán un aviso.]]></item>
+		<item name="wcf.acp.option.wbb_reply_old_thread_warning.description"><![CDATA[Los hilos antiguos se marcan como fechados en función de la hora de la última respuesta, los usuarios que intenten responder recibirán un aviso. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_search_find_threads"><![CDATA[Mostrar los resultados de búsqueda como tema]]></item>
 		<item name="wcf.acp.option.wbb_thread_delete_link_cycle"><![CDATA[Eliminar enlaces de redirección]]></item>
 		<item name="wcf.acp.option.wbb_thread_delete_link_cycle.description"><![CDATA[Los enlaces de redirección de los temas movidos se eliminan en los días siguientes. Utiliza 0 para desactivar.]]></item>
