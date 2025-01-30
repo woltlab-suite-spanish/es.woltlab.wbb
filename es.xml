@@ -13,7 +13,7 @@
 		<item name="wbb.acp.board.copy.recursive"><![CDATA[Copiar subforos]]></item>
 		<item name="wbb.acp.board.copy.recursive.description"><![CDATA[Copia recursivamente todos los subforos, categorías y enlaces.]]></item>
 		<item name="wbb.acp.board.countUserPosts"><![CDATA[Contar los posts de los usuarios]]></item>
-		<item name="wbb.acp.board.descriptionUseHtml"><![CDATA[Habilitar código HTML en la descripción del foro]]></item>
+		<item name="wbb.acp.board.descriptionUseHtml"><![CDATA[Activar código HTML en la descripción del foro]]></item>
 		<item name="wbb.acp.board.externalURL"><![CDATA[URL del enlace]]></item>
 		<item name="wbb.acp.board.filter"><![CDATA[Opciones de filtrado y clasificación]]></item>
 		<item name="wbb.acp.board.ignorable"><![CDATA[Los usuarios pueden ignorar este foro]]></item>
@@ -21,8 +21,8 @@
 		<item name="wbb.acp.board.isInvisible"><![CDATA[Ocultar foro en la lista de los foros]]></item>
 		<item name="wbb.acp.board.isPrivate"><![CDATA[Los temas son privados]]></item>
 		<item name="wbb.acp.board.isPrivate.description"><![CDATA[Los usuarios ordinarios solo pueden leer y responder a sus propios temas.]]></item>
-		<item name="wbb.acp.board.enableMarkingAsDone"><![CDATA[Habilitar el marcado de temas como resueltos]]></item>
-		<item name="wbb.acp.board.enableBestAnswer"><![CDATA[Habilitar el marcado de posts como "Mejor respuesta"]]></item>
+		<item name="wbb.acp.board.enableMarkingAsDone"><![CDATA[Activar marcado de temas como resueltos]]></item>
+		<item name="wbb.acp.board.enableBestAnswer"><![CDATA[Activar marcado de posts como "Mejor respuesta"]]></item>
 		<item name="wbb.acp.board.parentID"><![CDATA[Foro superior]]></item>
 		<item name="wbb.acp.board.position"><![CDATA[Orden de visualización]]></item>
 		<item name="wbb.acp.board.postsPerPage"><![CDATA[Posts por página]]></item>
@@ -849,10 +849,10 @@
 		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle.description"><![CDATA[Los temas y posts se eliminan de la papelera en los días siguientes. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_deleted_post_note"><![CDATA[Mostrar aviso de posts en la papelera]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_deleted_post_note.description"><![CDATA[Los posts en la papelera serán sustituidos por un aviso en la lista de posts.]]></item>
-		<item name="wcf.acp.option.wbb_thread_enable_moderation_notification"><![CDATA[Habilitar la notificación de moderación]]></item>
-		<item name="wcf.acp.option.wbb_thread_enable_moderation_thread_log"><![CDATA[Habilitar avisos de moderación en los temas]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_moderation_notification"><![CDATA[Activar notificación de moderación]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_moderation_thread_log"><![CDATA[Activar avisos de moderación en los temas]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_similar_threads"><![CDATA[Mostrar temas similares]]></item>
-		<item name="wcf.acp.option.wbb_thread_enable_tags"><![CDATA[Habilitar tags de temas]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_tags"><![CDATA[Activar tags de temas]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_tags.description"><![CDATA[Permite asignar tags a cada tema, que también se muestran en la nube de tags.]]></item>
 		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle"><![CDATA[Marcar automáticamente temas como resueltos]]></item>
 		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Los temas se marcan como resueltos en los días siguientes, en función de la hora de la última respuesta. Utiliza 0 para desactivar.]]></item>
