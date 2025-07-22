@@ -844,9 +844,9 @@
 		<item name="wcf.acp.option.wbb_reply_old_thread_warning.description"><![CDATA[Los hilos antiguos se marcan como fechados en función de la hora de la última respuesta, los usuarios que intenten responder recibirán un aviso. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_search_find_threads"><![CDATA[Mostrar los resultados de búsqueda como tema]]></item>
 		<item name="wcf.acp.option.wbb_thread_delete_link_cycle"><![CDATA[Eliminar enlaces de redirección]]></item>
-		<item name="wcf.acp.option.wbb_thread_delete_link_cycle.description"><![CDATA[Los enlaces de redirección de los temas movidos se eliminan en los días siguientes. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_thread_delete_link_cycle.description"><![CDATA[Los enlaces de redirección de los temas movidos se eliminan después de los días indicados. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle"><![CDATA[Vaciar papelera]]></item>
-		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle.description"><![CDATA[Los temas y posts se eliminan de la papelera en los días siguientes. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle.description"><![CDATA[Los temas y posts se eliminan de la papelera después de los días indicados. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_deleted_post_note"><![CDATA[Mostrar aviso de posts en la papelera]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_deleted_post_note.description"><![CDATA[Los posts en la papelera serán sustituidos por un aviso en la lista de posts.]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_moderation_notification"><![CDATA[Activar notificación de moderación]]></item>
@@ -855,7 +855,7 @@
 		<item name="wcf.acp.option.wbb_thread_enable_tags"><![CDATA[Activar tags de temas]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_tags.description"><![CDATA[Permite asignar tags a cada tema, que también se muestran en la nube de tags.]]></item>
 		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle"><![CDATA[Marcar automáticamente temas como resueltos]]></item>
-		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Los temas se marcan como resueltos en los días siguientes, en función de la hora de la última respuesta. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Los temas se marcan como resueltos después de los días indicados, en función de la hora de la última respuesta. Utiliza 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_thread_min_char_length"><![CDATA[Longitud mínima del título del tema]]></item>
 		<item name="wcf.acp.option.wbb_thread_min_word_count"><![CDATA[Longitud mínima de las palabras del título]]></item>
 		<item name="wcf.acp.option.wbb_thread_moderation_notification_show_moderator"><![CDATA[Mostrar moderador para las notificaciones]]></item>
@@ -866,7 +866,7 @@
 		<item name="wcf.acp.option.wbb_post_notification_mail_include_message.description"><![CDATA[Las notificaciones de temas suscritos, menciones o citas incluirán el contenido del post.]]></item>
 		<item name="wcf.acp.option.wbb_thread_similar_threads_count"><![CDATA[Número de temas similares]]></item>
 		<item name="wcf.acp.option.wbb_thread_similar_threads_search_period"><![CDATA[Periodo de tiempo para temas similares]]></item>
-		<item name="wcf.acp.option.wbb_thread_similar_threads_search_period.description"><![CDATA[Los temas similares se tendrán en cuenta si no han tenido respuestas en los días siguientes.]]></item>
+		<item name="wcf.acp.option.wbb_thread_similar_threads_search_period.description"><![CDATA[Los temas similares se tendrán en cuenta si no han tenido respuestas en los días indicados.]]></item>
 		<item name="wcf.acp.option.wbb_thread_max_formatted_excerpt_length"><![CDATA[Máximo de caracteres para la vista previa del tema]]></item>
 		<item name="wcf.acp.option.category.board.article.articleThread"><![CDATA[Tema de discusión]]></item>
 		<item name="wcf.acp.option.category.board.article.articleThread.description"><![CDATA[Los temas de discusión se crean automáticamente para cada nuevo artículo en el foro seleccionado.]]></item>
