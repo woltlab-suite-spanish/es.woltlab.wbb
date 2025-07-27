@@ -355,7 +355,7 @@
 		<item name="wbb.post.condition.state.isOpen"><![CDATA[Abierto]]></item>
 		<item name="wbb.post.condition.time"><![CDATA[Fecha]]></item>
 		<item name="wbb.post.condition.username"><![CDATA[Creado por]]></item>
-		<item name="wbb.post.condition.username.description"><![CDATA[Múltiples usuarios deben separarse por comas.]]></item>
+		<item name="wbb.post.condition.username.description"><![CDATA[Separa múltiples usuarios con comas.]]></item>
 		<item name="wbb.post.condition.board"><![CDATA[Foro]]></item>
 		<item name="wbb.post.reported"><![CDATA[El post ha sido reportado]]></item>
 		<item name="wbb.post.hiddenForGuests"><![CDATA[Este tema contiene {if $numberOfHiddenPosts == 1}un post más que ha sido ocultado{else}{#$numberOfHiddenPosts} posts más que han sido ocultados{/if} para los invitados.]]></item>
