@@ -20,7 +20,7 @@
 		<item name="wbb.acp.board.isClosed"><![CDATA[Archivo (no permitir nuevos posts)]]></item>
 		<item name="wbb.acp.board.isInvisible"><![CDATA[Ocultar foro en la lista de los foros]]></item>
 		<item name="wbb.acp.board.isPrivate"><![CDATA[Los temas son privados]]></item>
-		<item name="wbb.acp.board.isPrivate.description"><![CDATA[Los usuarios ordinarios solo pueden leer y responder a sus propios temas.]]></item>
+		<item name="wbb.acp.board.isPrivate.description"><![CDATA[Los usuarios normales solo pueden leer y responder a sus propios temas.]]></item>
 		<item name="wbb.acp.board.enableMarkingAsDone"><![CDATA[Activar marcado de temas como resueltos]]></item>
 		<item name="wbb.acp.board.enableBestAnswer"><![CDATA[Activar marcado de posts como "Mejor respuesta"]]></item>
 		<item name="wbb.acp.board.parentID"><![CDATA[Foro superior]]></item>
