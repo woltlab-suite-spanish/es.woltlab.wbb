@@ -28,7 +28,7 @@
 		<item name="wbb.acp.board.postsPerPage"><![CDATA[Posts por página]]></item>
 		<item name="wbb.acp.board.properties"><![CDATA[Ajustes]]></item>
 		<item name="wbb.acp.board.searchable"><![CDATA[Los posts se pueden buscar]]></item>
-		<item name="wbb.acp.board.searchableForSimilarThreads"><![CDATA[Las posts se utilizan para calcular temas similares]]></item>
+		<item name="wbb.acp.board.searchableForSimilarThreads"><![CDATA[Los posts se utilizan para calcular temas similares]]></item>
 		<item name="wbb.acp.board.sortField"><![CDATA[Orden de clasificación de los temas]]></item>
 		<item name="wbb.acp.board.styleSettings"><![CDATA[Ajustes de estilo]]></item>
 		<item name="wbb.acp.board.style"><![CDATA[Estilo]]></item>
