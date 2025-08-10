@@ -282,7 +282,7 @@
 		<item name="wbb.post.option.closeThread"><![CDATA[Cerrar tema]]></item>
 		<item name="wbb.post.option.closeThread.description"><![CDATA[Cierra el tema una vez creado tu mensaje.]]></item>
 		<item name="wbb.post.disableThread"><![CDATA[Publicación programada]]></item>
-		<item name="wbb.post.disablePost"><![CDATA[Publicación aplazada]]></item>
+		<item name="wbb.post.disablePost"><![CDATA[Publicación programada]]></item>
 		<item name="wbb.post.enableTime"><![CDATA[Fecha de publicación]]></item>
 		<item name="wbb.post.enableTime.description"><![CDATA[Por favor, especifica una fecha de publicación, el tema o post permanecerá desactivado hasta entonces.]]></item>
 		<item name="wbb.post.enableTime.now"><![CDATA[Publicar ahora]]></item>
