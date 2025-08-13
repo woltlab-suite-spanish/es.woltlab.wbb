@@ -28,7 +28,7 @@
 		<item name="wbb.acp.board.postsPerPage"><![CDATA[Posts por página]]></item>
 		<item name="wbb.acp.board.properties"><![CDATA[Ajustes]]></item>
 		<item name="wbb.acp.board.searchable"><![CDATA[Los posts se pueden buscar]]></item>
-		<item name="wbb.acp.board.searchableForSimilarThreads"><![CDATA[Los posts se utilizan para calcular temas similares]]></item>
+		<item name="wbb.acp.board.searchableForSimilarThreads"><![CDATA[Los posts se usan para calcular temas similares]]></item>
 		<item name="wbb.acp.board.sortField"><![CDATA[Orden de clasificación de los temas]]></item>
 		<item name="wbb.acp.board.styleSettings"><![CDATA[Ajustes de estilo]]></item>
 		<item name="wbb.acp.board.style"><![CDATA[Estilo]]></item>
@@ -135,19 +135,19 @@
 		<item name="wbb.acp.rssFeed.cycleTime.604800"><![CDATA[Cada 7 días]]></item>
 		<item name="wbb.acp.rssFeed.cycleTime.description"><![CDATA[El canal RSS buscará nuevas entradas en función de la frecuencia configurada.]]></item>
 		<item name="wbb.acp.rssFeed.maxResults"><![CDATA[Máximo de nuevas entradas]]></item>
-		<item name="wbb.acp.rssFeed.maxResults.description"><![CDATA[El número máximo de nuevas entradas RSS obtenidas con cada ejecución. Utiliza 0 para desactivarlo. Se recomienda limitar el número de canales RSS que proporcionan rápidamente muchas entradas.]]></item>
+		<item name="wbb.acp.rssFeed.maxResults.description"><![CDATA[El número máximo de nuevas entradas RSS obtenidas con cada ejecución. Usa 0 para desactivarlo. Se recomienda limitar el número de canales RSS que proporcionan rápidamente muchas entradas.]]></item>
 		<item name="wbb.acp.rssFeed.threadData"><![CDATA[Datos del tema]]></item>
 		<item name="wbb.acp.rssFeed.board"><![CDATA[Foro de destino]]></item>
 		<item name="wbb.acp.rssFeed.board.description"><![CDATA[Los temas se crearán en el foro seleccionado.]]></item>
 		<item name="wbb.acp.rssFeed.language.description"><![CDATA[Los temas se crearán en el idioma seleccionado.]]></item>
-		<item name="wbb.acp.rssFeed.username.description"><![CDATA[Los temas se crearán utilizando el autor introducido.]]></item>
+		<item name="wbb.acp.rssFeed.username.description"><![CDATA[Los temas se crearán usando el autor introducido.]]></item>
 		<item name="wbb.acp.rssFeed.threadTags"><![CDATA[Tags del tema]]></item>
 		<item name="wbb.acp.rssFeed.threadTags.description"><![CDATA[Puedes especificar múltiples etiquetas de tema para los temas creados. Separa múltiples etiquetas de tema con una coma.]]></item>
 		<item name="wbb.acp.rssFeed.closeThread"><![CDATA[Cerrar tema después de su creación]]></item>
 		<item name="wbb.acp.rssFeed.disableThread"><![CDATA[Desactivar tema tras su creación]]></item>
 		<item name="wbb.acp.rssFeed.template"><![CDATA[{if $link && MODULE_URL_UNFURLING}[url]{@$link}[/url]{else}[quote='{@$author}'{if $link},'{@$link}'{/if}]{@$description}[/quote]{/if}]]></item>
 		<item name="wbb.acp.rssFeed.error.noBoards"><![CDATA[Por favor, <a href="{link controller='BoardAdd' application='wbb'}{/link}">añade un foro</a> antes de crear canales RSS.]]></item>
-		<item name="wbb.acp.rssFeed.useCategoriesAsTags"><![CDATA[Utilizar categorías de entradas importadas como etiquetas de temas]]></item>
+		<item name="wbb.acp.rssFeed.useCategoriesAsTags"><![CDATA[Usar categorías de entradas importadas como etiquetas de temas]]></item>
 		<item name="wbb.acp.rssFeed.errorMessage"><![CDATA[Se ha producido un error durante la última ejecución.]]></item>
 		<item name="wbb.acp.rssFeed.errorMessage.info"><![CDATA[Se ha producido el siguiente error durante la última ejecución:]]></item>
 	</category>
@@ -752,16 +752,16 @@
 		<item name="wcf.acp.group.option.user.board.canViewBoard"><![CDATA[Puede ver foros]]></item>
 		<item name="wcf.acp.group.option.user.board.canVotePoll"><![CDATA[Puede participar en encuestas]]></item>
 		<item name="wcf.acp.group.option.user.board.doublePostLock"><![CDATA[Retraso para posts consecutivos]]></item>
-		<item name="wcf.acp.group.option.user.board.doublePostLock.description"><![CDATA[Fusiona automáticamente los mensajes consecutivos creados por el mismo usuario en el mismo hilo dentro de la ventana de tiempo introducida. Esta función se desactiva automáticamente si al fusionar se pierden datos (por ejemplo, si los mensajes contienen encuestas). Utiliza -1 para infinito.]]></item>
+		<item name="wcf.acp.group.option.user.board.doublePostLock.description"><![CDATA[Fusiona automáticamente los mensajes consecutivos creados por el mismo usuario en el mismo hilo dentro de la ventana de tiempo introducida. Esta función se desactiva automáticamente si al fusionar se pierden datos (por ejemplo, si los mensajes contienen encuestas). Usa -1 para infinito.]]></item>
 		<item name="wcf.acp.group.option.user.board.maxPostLength"><![CDATA[Longitud máxima del post]]></item>
 		<item name="wcf.acp.group.option.user.board.postEditTimeout"><![CDATA[Período de tiempo de edición de posts]]></item>
-		<item name="wcf.acp.group.option.user.board.postEditTimeout.description"><![CDATA[Minutos permitidos para que los usuarios editen sus posts. Utilizar -1 para infinito.]]></item>
+		<item name="wcf.acp.group.option.user.board.postEditTimeout.description"><![CDATA[Minutos permitidos para que los usuarios editen sus posts. Usa -1 para infinito.]]></item>
 		<item name="wcf.acp.group.option.user.board.floodControlTime"><![CDATA[Retraso entre posts]]></item>
 		<item name="wcf.acp.group.option.user.board.floodControlTime.description"><![CDATA[Segundos requeridos entre la creación de dos posts.]]></item>
 		<item name="wcf.acp.group.option.user.board.canLikePost"><![CDATA[Puede reaccionar a posts]]></item>
 		<item name="wcf.acp.group.option.user.board.canMarkBestAnswerOwnThread"><![CDATA[Puede marcar la "Mejor respuesta" en sus temas]]></item>
 		<item name="wcf.acp.group.option.user.board.oldPostEditFloodCount"><![CDATA[Número máximo de posts antiguos editadas en 24 horas]]></item>
-		<item name="wcf.acp.group.option.user.board.oldPostEditFloodCount.description"><![CDATA[Limita el número de posts antiguos que un usuario puede editar en 24 horas. Se considera que un mensaje es antiguo si tanto la creación como la última edición ocurrieron hace más de 24 horas. Utiliza -1 para infinito.]]></item>
+		<item name="wcf.acp.group.option.user.board.oldPostEditFloodCount.description"><![CDATA[Limita el número de posts antiguos que un usuario puede editar en 24 horas. Se considera que un mensaje es antiguo si tanto la creación como la última edición ocurrieron hace más de 24 horas. Usa -1 para infinito.]]></item>
 		<item name="wcf.acp.group.option.admin.board.canManageRssFeed"><![CDATA[Puede gestionar canales RSS]]></item>
 		<item name="wcf.acp.group.option.mod.board.canCopyThread"><![CDATA[Puede copiar temas]]></item>
 		<item name="wcf.acp.group.option.mod.board.canCopyPost"><![CDATA[Puede copiar posts]]></item>
@@ -832,7 +832,7 @@
 		<item name="wcf.acp.option.wbb_board_list_depth"><![CDATA[Profundidad de la lista de foros]]></item>
 		<item name="wcf.acp.option.wbb_board_list_depth.description"><![CDATA[La profundidad máxima de foros que se mostrarán en la lista de foros.]]></item>
 		<item name="wcf.acp.option.wbb_board_threads_enable_language_flag"><![CDATA[Mostrar el idioma del tema con una bandera]]></item>
-		<item name="wcf.acp.option.wbb_board_threads_enable_language_flag.description"><![CDATA[Los temas muestran una bandera dependiendo del idioma utilizado por el creador del tema.]]></item>
+		<item name="wcf.acp.option.wbb_board_threads_enable_language_flag.description"><![CDATA[Los temas muestran una bandera dependiendo del idioma usado por el creador del tema.]]></item>
 		<item name="wcf.acp.option.wbb_board_threads_per_page"><![CDATA[Temas por página]]></item>
 		<item name="wcf.acp.option.wbb_message_sidebar_enable_user_posts"><![CDATA[Mostrar el número de posts del autor]]></item>
 		<item name="wcf.acp.option.wbb_module_thread_marking_as_done"><![CDATA[Permitir marcar temas como resueltos]]></item>
@@ -841,12 +841,12 @@
 		<item name="wcf.acp.option.wbb_post_min_char_length"><![CDATA[Longitud mínima del mensaje]]></item>
 		<item name="wcf.acp.option.wbb_post_min_word_count"><![CDATA[Número mínimo de palabras]]></item>
 		<item name="wcf.acp.option.wbb_reply_old_thread_warning"><![CDATA[Mostrar advertencia para temas antiguos]]></item>
-		<item name="wcf.acp.option.wbb_reply_old_thread_warning.description"><![CDATA[Los hilos antiguos se marcan como fechados en función de la hora de la última respuesta, los usuarios que intenten responder recibirán un aviso. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_reply_old_thread_warning.description"><![CDATA[Los hilos antiguos se marcan como fechados en función de la hora de la última respuesta, los usuarios que intenten responder recibirán un aviso. Usa 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_search_find_threads"><![CDATA[Mostrar los resultados de búsqueda como tema]]></item>
 		<item name="wcf.acp.option.wbb_thread_delete_link_cycle"><![CDATA[Eliminar enlaces de redirección]]></item>
-		<item name="wcf.acp.option.wbb_thread_delete_link_cycle.description"><![CDATA[Los enlaces de redirección de los temas movidos se eliminan después de los días indicados. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_thread_delete_link_cycle.description"><![CDATA[Los enlaces de redirección de los temas movidos se eliminan después de los días indicados. Usa 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle"><![CDATA[Vaciar papelera]]></item>
-		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle.description"><![CDATA[Los temas y posts se eliminan de la papelera después de los días indicados. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle.description"><![CDATA[Los temas y posts se eliminan de la papelera después de los días indicados. Usa 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_deleted_post_note"><![CDATA[Mostrar aviso de posts en la papelera]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_deleted_post_note.description"><![CDATA[Los posts en la papelera serán sustituidos por un aviso en la lista de posts.]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_moderation_notification"><![CDATA[Activar notificación de moderación]]></item>
@@ -855,7 +855,7 @@
 		<item name="wcf.acp.option.wbb_thread_enable_tags"><![CDATA[Activar tags de temas]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_tags.description"><![CDATA[Permite asignar tags a cada tema, que también se muestran en la nube de tags.]]></item>
 		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle"><![CDATA[Marcar automáticamente temas como resueltos]]></item>
-		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Los temas se marcan como resueltos después de los días indicados, en función de la hora de la última respuesta. Utiliza 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Los temas se marcan como resueltos después de los días indicados, en función de la hora de la última respuesta. Usa 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_thread_min_char_length"><![CDATA[Longitud mínima del título del tema]]></item>
 		<item name="wcf.acp.option.wbb_thread_min_word_count"><![CDATA[Longitud mínima de las palabras del título]]></item>
 		<item name="wcf.acp.option.wbb_thread_moderation_notification_show_moderator"><![CDATA[Mostrar moderador para las notificaciones]]></item>
@@ -877,7 +877,7 @@
 		<item name="wcf.acp.option.wbb_article_thread_single_board"><![CDATA[Foro único para todas las categorías]]></item>
 		<item name="wcf.acp.option.wbb_article_thread_single_board.description"><![CDATA[Los temas de discusión se crearán en el foro especificado independientemente de las categorías seleccionadas. Si desactivas esta función, podrás editar las categorías deseadas y asignarles un foro específico.]]></item>
 		<item name="wcf.acp.option.wbb_thread_guest_max_posts"><![CDATA[Número de posts mostrados para invitados]]></item>
-		<item name="wcf.acp.option.wbb_thread_guest_max_posts.description"><![CDATA[Solo se mostrarán a los invitados los primeros mensajes hasta el límite configurado. Los temas con más respuestas mostrarán un aviso para animar a los visitantes a registrarse o iniciar sesión. Utiliza 0 para mostrar siempre todos los mensajes.]]></item>
+		<item name="wcf.acp.option.wbb_thread_guest_max_posts.description"><![CDATA[Solo se mostrarán a los invitados los primeros mensajes hasta el límite configurado. Los temas con más respuestas mostrarán un aviso para animar a los visitantes a registrarse o iniciar sesión. Usa 0 para mostrar siempre todos los mensajes.]]></item>
 		<item name="wcf.acp.option.wbb_board_users_online_filter"><![CDATA[Filtrar la lista de “Usuarios en línea” en los foros]]></item>
 		<item name="wcf.acp.option.wbb_board_users_online_filter.description"><![CDATA[En la lista “Usuarios en línea” solo se muestran los usuarios que también están actualmente en el foro visitado.]]></item>
 		<item name="wcf.acp.option.wbb_thread_users_online_filter"><![CDATA[Filtrar la lista de “Usuarios en línea” en los temas]]></item>
