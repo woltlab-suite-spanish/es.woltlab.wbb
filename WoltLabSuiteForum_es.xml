@@ -424,12 +424,12 @@
 		<item name="wbb.thread.markAsRead.doubleClick"><![CDATA[Doble clic para marcar este tema como leído]]></item>
 		<item name="wbb.thread.labeledThreads"><![CDATA[Temas etiquetados con la etiqueta “{$label->getTitle()}”]]></item>
 		<item name="wbb.thread.reported"><![CDATA[El tema ha sido reportado]]></item>
-		<item name="wbb.thread.closedThread"><![CDATA[Estás a punto de responder a un hilo cerrado.]]></item>
+		<item name="wbb.thread.closedThread"><![CDATA[Estás a punto de responder a un tema cerrado.]]></item>
 		<item name="wbb.thread.languageFilter"><![CDATA[Temas con el idioma “{$thread->getLanguage()->languageName}”]]></item>
 		<item name="wbb.thread.copy.title"><![CDATA[Copiar tema ({$item} de {$count})]]></item>
 		<item name="wbb.thread.conditions"><![CDATA[Tema]]></item>
 		<item name="wbb.thread.condition.currentBoard"><![CDATA[Restringir al foro actual]]></item>
-		<item name="wbb.thread.condition.currentBoard.description"><![CDATA[Si la página pertenece a un foro determinado, solo se seleccionarán los hilos de este foro.]]></item>
+		<item name="wbb.thread.condition.currentBoard.description"><![CDATA[Si la página pertenece a un foro determinado, solo se seleccionarán los temas de este foro.]]></item>
 		<item name="wbb.thread.condition.displayMode"><![CDATA[Modo de visualización]]></item>
 		<item name="wbb.thread.condition.displayMode.firstPostExcerpt"><![CDATA[Vista previa del primer post]]></item>
 		<item name="wbb.thread.condition.displayMode.description"><![CDATA[El modo de visualización seleccionado solo es relevante si los temas no se mostrarán en una barra lateral.]]></item>
@@ -752,7 +752,7 @@
 		<item name="wcf.acp.group.option.user.board.canViewBoard"><![CDATA[Puede ver foros]]></item>
 		<item name="wcf.acp.group.option.user.board.canVotePoll"><![CDATA[Puede participar en encuestas]]></item>
 		<item name="wcf.acp.group.option.user.board.doublePostLock"><![CDATA[Retraso para posts consecutivos]]></item>
-		<item name="wcf.acp.group.option.user.board.doublePostLock.description"><![CDATA[Fusiona automáticamente los mensajes consecutivos creados por el mismo usuario en el mismo hilo dentro de la ventana de tiempo introducida. Esta función se desactiva automáticamente si al fusionar se pierden datos (por ejemplo, si los mensajes contienen encuestas). Usa -1 para infinito.]]></item>
+		<item name="wcf.acp.group.option.user.board.doublePostLock.description"><![CDATA[Fusiona automáticamente los mensajes consecutivos creados por el mismo usuario en el mismo tema dentro de la ventana de tiempo introducida. Esta función se desactiva automáticamente si al fusionar se pierden datos (por ejemplo, si los mensajes contienen encuestas). Usa -1 para infinito.]]></item>
 		<item name="wcf.acp.group.option.user.board.maxPostLength"><![CDATA[Longitud máxima del post]]></item>
 		<item name="wcf.acp.group.option.user.board.postEditTimeout"><![CDATA[Período de tiempo de edición de posts]]></item>
 		<item name="wcf.acp.group.option.user.board.postEditTimeout.description"><![CDATA[Minutos permitidos para que los usuarios editen sus posts. Usa -1 para infinito.]]></item>
@@ -841,7 +841,7 @@
 		<item name="wcf.acp.option.wbb_post_min_char_length"><![CDATA[Longitud mínima del mensaje]]></item>
 		<item name="wcf.acp.option.wbb_post_min_word_count"><![CDATA[Número mínimo de palabras]]></item>
 		<item name="wcf.acp.option.wbb_reply_old_thread_warning"><![CDATA[Mostrar advertencia para temas antiguos]]></item>
-		<item name="wcf.acp.option.wbb_reply_old_thread_warning.description"><![CDATA[Los hilos antiguos se marcan como fechados en función de la hora de la última respuesta, los usuarios que intenten responder recibirán un aviso. Usa 0 para desactivar.]]></item>
+		<item name="wcf.acp.option.wbb_reply_old_thread_warning.description"><![CDATA[Los temas antiguos se marcan como fechados en función de la hora de la última respuesta, los usuarios que intenten responder recibirán un aviso. Usa 0 para desactivar.]]></item>
 		<item name="wcf.acp.option.wbb_search_find_threads"><![CDATA[Mostrar los resultados de búsqueda como tema]]></item>
 		<item name="wcf.acp.option.wbb_thread_delete_link_cycle"><![CDATA[Eliminar enlaces de redirección]]></item>
 		<item name="wcf.acp.option.wbb_thread_delete_link_cycle.description"><![CDATA[Los enlaces de redirección de los temas movidos se eliminan después de los días indicados. Usa 0 para desactivar.]]></item>
