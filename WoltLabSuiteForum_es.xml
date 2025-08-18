@@ -825,7 +825,7 @@
 		<item name="wcf.acp.option.wbb_board_default_sort_field.description"><![CDATA[Elige la opción de ordenación por defecto de los temas.]]></item>
 		<item name="wcf.acp.option.wbb_board_default_sort_order"><![CDATA[Orden de clasificación]]></item>
 		<item name="wcf.acp.option.wbb_board_default_sort_order.description"><![CDATA[Elige el orden de clasificación por defecto de los temas.]]></item>
-		<item name="wcf.acp.option.wbb_board_enable_deleted_thread_note"><![CDATA[Mostrar un aviso para temas en papelera]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_deleted_thread_note"><![CDATA[Mostrar un aviso para temas en la papelera]]></item>
 		<item name="wcf.acp.option.wbb_board_enable_deleted_thread_note.description"><![CDATA[Los temas en la papelera serán sustituidos por un aviso en la lista de temas.]]></item>
 		<item name="wcf.acp.option.wbb_board_enable_moderators"><![CDATA[Mostrar moderadores del foro]]></item>
 		<item name="wcf.acp.option.wbb_board_enable_stats"><![CDATA[Mostrar estadísticas del foro]]></item>
