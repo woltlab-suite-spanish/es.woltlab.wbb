@@ -243,7 +243,7 @@
 <li>{#$stats[threads]} tema{if $stats[threads] != 1}s{/if}</li>
 <li>{#$stats[posts]} post{if $stats[posts] != 1}s{/if} ({#$stats[postsPerDay]} post{if $stats[postsPerDay] != 1}s{/if} por día)</li>
 </ul>
-{if $stats[newestMember]}<p>Último miembro: {user object=$stats[newestMember]}.</p>{/if}]]></item>
+{if $stats[newestMember]}<p>Miembro más reciente: {user object=$stats[newestMember]}.</p>{/if}]]></item>
 		<item name="wbb.index.selectForumForNewThread"><![CDATA[Seleccionar foro para el nuevo tema]]></item>
 	</category>
 	<category name="wbb.post">
