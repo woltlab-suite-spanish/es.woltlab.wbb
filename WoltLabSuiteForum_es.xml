@@ -907,7 +907,7 @@
 		<item name="wcf.acp.rebuildData.wbb_system_worker_PostSearchIndexRebuildDataWorker"><![CDATA[Reconstruir índice de búsqueda de posts]]></item>
 		<item name="wcf.acp.rebuildData.wbb_system_worker_PostSearchIndexRebuildDataWorker.description"><![CDATA[Atención: Esta acción puede tardar en completarse en foros grandes.]]></item>
 		<item name="wcf.acp.rebuildData.wbb_system_worker_ArticleThreadsRebuildDataWorker"><![CDATA[Reconstruir temas de discusión para artículos]]></item>
-		<item name="wcf.acp.rebuildData.wbb_system_worker_ArticleThreadsRebuildDataWorker.description"><![CDATA[Crea y actualiza temas de discusión para los artículos.]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_ArticleThreadsRebuildDataWorker.description"><![CDATA[Crea y actualiza los temas de discusión para los artículos.]]></item>
 	</category>
 	<category name="wcf.acp.sitemap">
 		<item name="wcf.acp.sitemap.objectType.com.woltlab.wbb.sitemap.object.board"><![CDATA[Foros]]></item>
