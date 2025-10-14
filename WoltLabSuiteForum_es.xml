@@ -307,7 +307,7 @@
 		<item name="wbb.post.notification.moderate.enable.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha aprobado tu post <strong>{$post->getTitle()}</strong>.]]></item>
 		<item name="wbb.post.notification.moderate.move.notification.title"><![CDATA[Tu post ha sido movido]]></item>
 		<item name="wbb.post.notification.moderate.move.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha movido tu post <strong>{$post->getTitle()}</strong>.]]></item>
-		<item name="wbb.post.notification.moderate.trash.notification.title"><![CDATA[Tu post ha sido movido a la papalera]]></item>
+		<item name="wbb.post.notification.moderate.trash.notification.title"><![CDATA[Tu post ha sido movido a la papelera]]></item>
 		<item name="wbb.post.notification.moderate.trash.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha movido tu post <strong>{$post->getTitle()}</strong> a la papelera{if !$userNotificationObject->getDecoratedObject()->__get('reason')|empty} por el motivo “{$userNotificationObject->getDecoratedObject()->reason|truncate:255:'…'}“{/if}.]]></item>
 		<item name="wbb.post.like.notification.title"><![CDATA[Reacción a tu post]]></item>
 		<item name="wbb.post.like.notification.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu post]]></item>
