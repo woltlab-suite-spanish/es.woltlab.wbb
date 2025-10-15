@@ -478,7 +478,7 @@
 		<item name="wbb.thread.notification.moderate.close.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha cerrado tu tema <strong>{$thread->getTitle()}</strong>.]]></item>
 		<item name="wbb.thread.notification.moderate.open.notification.title"><![CDATA[Tu tema ha sido abierto]]></item>
 		<item name="wbb.thread.notification.moderate.open.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha abierto tu tema <strong>{$thread->getTitle()}</strong>.]]></item>
-		<item name="wbb.thread.notification.moderate.enable.notification.title"><![CDATA[Te tema ha sido aprobado]]></item>
+		<item name="wbb.thread.notification.moderate.enable.notification.title"><![CDATA[Tu tema ha sido aprobado]]></item>
 		<item name="wbb.thread.notification.moderate.enable.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha aprobado tu tema <strong>{$thread->getTitle()}</strong>.]]></item>
 		<item name="wbb.thread.notification.moderate.move.notification.title"><![CDATA[Tu tema ha sido movido]]></item>
 		<item name="wbb.thread.notification.moderate.move.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha movido tu tema <strong>{$thread->getTitle()}</strong>.]]></item>
