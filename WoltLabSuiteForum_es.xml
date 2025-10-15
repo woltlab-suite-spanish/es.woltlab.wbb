@@ -174,7 +174,7 @@
 		<item name="wbb.acp.thread.bulkProcessing.warning"><![CDATA[<strong>Atención</strong>: El procesamiento en masa ejecuta todas las acciones que se indican a continuación en todos los temas que cumplan las condiciones seleccionadas sin ninguna otra solicitud de confirmación.]]></item>
 	</category>
 	<category name="wbb.acp.user">
-		<item name="wbb.acp.user.conditions.postsLessThan"><![CDATA[Total de post menor de]]></item>
+		<item name="wbb.acp.user.conditions.postsLessThan"><![CDATA[Total de posts menor de]]></item>
 		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[Total de posts mayor de]]></item>
 	</category>
 	<category name="wbb.board">
