@@ -175,7 +175,7 @@
 	</category>
 	<category name="wbb.acp.user">
 		<item name="wbb.acp.user.conditions.postsLessThan"><![CDATA[Total de post menor de]]></item>
-		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[Total de post mayor de]]></item>
+		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[Total de posts mayor de]]></item>
 	</category>
 	<category name="wbb.board">
 		<item name="wbb.board.clicks"><![CDATA[Clicks]]></item>
