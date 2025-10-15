@@ -417,7 +417,7 @@
 		<item name="wbb.thread.announcement"><![CDATA[Anuncio]]></item>
 		<item name="wbb.thread.similarThreads"><![CDATA[Temas similares]]></item>
 		<item name="wbb.thread.inlineSimilarThreads"><![CDATA[Los siguientes temas coinciden con tu título:]]></item>
-		<item name="wbb.thread.watchedThreads.stopWatchingAll"><![CDATA[Desuscribrir todo]]></item>
+		<item name="wbb.thread.watchedThreads.stopWatchingAll"><![CDATA[Desuscribir todo]]></item>
 		<item name="wbb.thread.watchedThreads.stopWatchingAll.confirmMessage"><![CDATA[¿Realmente quieres desuscribir todos los temas?]]></item>
 		<item name="wbb.thread.watchedThreads.stopWatchingMarked"><![CDATA[Unsubscribe marked thread{if $count > 1}s ({#$count}){/if}]]></item>
 		<item name="wbb.thread.watchedThreads.stopWatchingMarked.confirmMessage"><![CDATA[¿Realmente quieres desuscribir los temas marcados?]]></item>
