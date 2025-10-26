@@ -836,7 +836,7 @@
 		<item name="wcf.acp.option.wbb_board_threads_per_page"><![CDATA[Temas por página]]></item>
 		<item name="wcf.acp.option.wbb_message_sidebar_enable_user_posts"><![CDATA[Mostrar el número de posts del autor]]></item>
 		<item name="wcf.acp.option.wbb_module_thread_marking_as_done"><![CDATA[Permitir marcar temas como resueltos]]></item>
-		<item name="wcf.acp.option.wbb_post_edit_hide_edit_note_period"><![CDATA[Tiempo limitado de edición]]></item>
+		<item name="wcf.acp.option.wbb_post_edit_hide_edit_note_period"><![CDATA[Periodo de edición limitado]]></item>
 		<item name="wcf.acp.option.wbb_post_edit_hide_edit_note_period.description"><![CDATA[Minutos permitidos para editar posts hasta que se muestre una nota de edición.]]></item>
 		<item name="wcf.acp.option.wbb_post_min_char_length"><![CDATA[Longitud mínima del mensaje]]></item>
 		<item name="wcf.acp.option.wbb_post_min_word_count"><![CDATA[Número mínimo de palabras]]></item>
