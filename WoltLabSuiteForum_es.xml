@@ -142,7 +142,7 @@
 		<item name="wbb.acp.rssFeed.language.description"><![CDATA[Los temas se crearán en el idioma seleccionado.]]></item>
 		<item name="wbb.acp.rssFeed.username.description"><![CDATA[Los temas se crearán usando el autor introducido.]]></item>
 		<item name="wbb.acp.rssFeed.threadTags"><![CDATA[Tags del tema]]></item>
-		<item name="wbb.acp.rssFeed.threadTags.description"><![CDATA[Puedes especificar múltiples etiquetas de tema para los temas creados. Separa múltiples etiquetas de tema con una coma.]]></item>
+		<item name="wbb.acp.rssFeed.threadTags.description"><![CDATA[Puedes especificar múltiples tags de tema para los temas creados. Separa múltiples tags de tema con una coma.]]></item>
 		<item name="wbb.acp.rssFeed.closeThread"><![CDATA[Cerrar tema después de su creación]]></item>
 		<item name="wbb.acp.rssFeed.disableThread"><![CDATA[Desactivar tema tras su creación]]></item>
 		<item name="wbb.acp.rssFeed.template"><![CDATA[{if $link && MODULE_URL_UNFURLING}[url]{@$link}[/url]{else}[quote='{@$author}'{if $link},'{@$link}'{/if}]{@$description}[/quote]{/if}]]></item>
