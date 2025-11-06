@@ -147,7 +147,7 @@
 		<item name="wbb.acp.rssFeed.disableThread"><![CDATA[Desactivar tema tras su creación]]></item>
 		<item name="wbb.acp.rssFeed.template"><![CDATA[{if $link && MODULE_URL_UNFURLING}[url]{@$link}[/url]{else}[quote='{@$author}'{if $link},'{@$link}'{/if}]{@$description}[/quote]{/if}]]></item>
 		<item name="wbb.acp.rssFeed.error.noBoards"><![CDATA[Por favor, <a href="{link controller='BoardAdd' application='wbb'}{/link}">añade un foro</a> antes de crear canales RSS.]]></item>
-		<item name="wbb.acp.rssFeed.useCategoriesAsTags"><![CDATA[Usar categorías de entradas importadas como etiquetas de temas]]></item>
+		<item name="wbb.acp.rssFeed.useCategoriesAsTags"><![CDATA[Usar categorías de entradas importadas como tags de temas]]></item>
 		<item name="wbb.acp.rssFeed.errorMessage"><![CDATA[Se ha producido un error durante la última ejecución.]]></item>
 		<item name="wbb.acp.rssFeed.errorMessage.info"><![CDATA[Se ha producido el siguiente error durante la última ejecución:]]></item>
 	</category>
