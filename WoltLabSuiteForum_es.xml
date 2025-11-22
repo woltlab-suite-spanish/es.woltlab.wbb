@@ -312,8 +312,8 @@
 		<item name="wbb.post.notification.moderate.trash.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un moderador{/if} ha movido tu post <strong>{$post->getTitle()}</strong> a la papelera{if !$userNotificationObject->getDecoratedObject()->__get('reason')|empty} por el motivo “{$userNotificationObject->getDecoratedObject()->reason|truncate:255:'…'}“{/if}.]]></item>
 		<item name="wbb.post.like.notification.title"><![CDATA[Reacción a tu post]]></item>
 		<item name="wbb.post.like.notification.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu post]]></item>
-		<item name="wbb.post.like.notification.message"><![CDATA[<strong>{$author}</strong> ha reaccionado a tu post en el tema <strong>{$thread->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="wbb.post.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han reaccionado a tu post en el tema <strong>{$thread->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wbb.post.like.notification.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu post en el tema <strong>{$thread->getTitle()}</strong>.]]></item>
+		<item name="wbb.post.like.notification.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} a tu post en el tema <strong>{$thread->getTitle()}</strong>.]]></item>
 		<item name="wbb.post.quote.notification.title"><![CDATA[Has sido citado]]></item>
 		<item name="wbb.post.quote.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha citado uno de tus posts en una respuesta en <strong>{$userNotificationObject->getThread()->getTitle()}</strong>.]]></item>
 		<item name="wbb.post.quote.notification.mail.title"><![CDATA[Has sido citado en el tema "{@$userNotificationObject->getThread()->topic}"]]></item>
