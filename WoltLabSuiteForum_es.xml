@@ -298,7 +298,7 @@
 		<item name="wbb.post.notification.title"><![CDATA[Nuevo post en tema suscrito]]></item>
 		<item name="wbb.post.notification.title.stacked"><![CDATA[{#$timesTriggered} nuevos posts en tema suscrito]]></item>
 		<item name="wbb.post.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido en el tema <strong>{$userNotificationObject->getThread()->getTitle()}</strong>.]]></item>
-		<item name="wbb.post.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} {if $count == 1}ha respondido{else}han respondido{/if} en el tema <strong>{$message->getThread()->getTitle()}</strong>.]]></item>
+		<item name="wbb.post.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han respondido en el tema <strong>{$message->getThread()->getTitle()}</strong>.]]></item>
 		<item name="wbb.post.notification.mail.title"><![CDATA[Nuevo post en el tema "{@$thread->getTitle()}"]]></item>
 		<item name="wbb.post.notification.mail.plaintext"><![CDATA[{@$authorList} ha respondido al tema “{@$thread->getTitle()}” [URL:{@$post->getLink()}] en el foro “{@$thread->getBoard()->getTitle()}”{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE && $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wbb.post.notification.mail.html"><![CDATA[<p>{@$authorList} ha respondido al tema <a href="{$post->getLink()}">{$thread->getTitle()}</a> en el foro <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a>{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
@@ -313,7 +313,7 @@
 		<item name="wbb.post.like.notification.title"><![CDATA[Reacción a tu post]]></item>
 		<item name="wbb.post.like.notification.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu post]]></item>
 		<item name="wbb.post.like.notification.message"><![CDATA[<strong>{$author}</strong> ha reaccionado a tu post en el tema <strong>{$thread->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="wbb.post.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} {if $count == 1}ha reaccionado{else}han reaccionado{/if} a tu post en el tema <strong>{$thread->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wbb.post.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} han reaccionado a tu post en el tema <strong>{$thread->getTitle()}</strong> ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
 		<item name="wbb.post.quote.notification.title"><![CDATA[Has sido citado]]></item>
 		<item name="wbb.post.quote.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha citado uno de tus posts en una respuesta en <strong>{$userNotificationObject->getThread()->getTitle()}</strong>.]]></item>
 		<item name="wbb.post.quote.notification.mail.title"><![CDATA[Has sido citado en el tema "{@$userNotificationObject->getThread()->topic}"]]></item>
