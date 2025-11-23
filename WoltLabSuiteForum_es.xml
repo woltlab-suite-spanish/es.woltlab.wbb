@@ -244,7 +244,7 @@
 <li>{#$boardStats->threads} tema{if $boardStats->threads != 1}s{/if}</li>
 <li>{#$boardStats->posts} post{if $boardStats->posts != 1}s{/if} ({#$boardStats->postsPerDay} post{if $boardStats->postsPerDay != 1}s{/if} por día)</li>
 </ul>
-<p>Miembro más reciente: {user object=$userStats->newestMember}.</p>{/if}]]></item>
+<p>Miembro más reciente: {user object=$userStats->newestMember}.</p>]]></item>
 		<item name="wbb.index.selectForumForNewThread"><![CDATA[Seleccionar foro para el nuevo tema]]></item>
 	</category>
 	<category name="wbb.post">
