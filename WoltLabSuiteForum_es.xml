@@ -1000,7 +1000,7 @@
 	</category>
 	<category name="wcf.user.notification">
 		<item name="wcf.user.notification.com.woltlab.wbb"><![CDATA[Foro]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.post.post"><![CDATA[Notificarme nuevos respuestas en temas suscritos]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.post.post"><![CDATA[Notificarme nuevas respuestas en temas suscritos]]></item>
 		<item name="wcf.user.notification.com.woltlab.wbb.post.quote"><![CDATA[Notificarme cuando me citen]]></item>
 		<item name="wcf.user.notification.com.woltlab.wbb.post.mention"><![CDATA[Notificarme cuando me mencionen]]></item>
 		<item name="wcf.user.notification.com.woltlab.wbb.likeablePost.notification.like"><![CDATA[Notificarme cuando alguien reaccione a mis posts]]></item>
