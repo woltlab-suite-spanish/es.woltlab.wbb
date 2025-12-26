@@ -1000,13 +1000,13 @@
 	</category>
 	<category name="wcf.user.notification">
 		<item name="wcf.user.notification.com.woltlab.wbb"><![CDATA[Foro]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.post.post"><![CDATA[Notificarme nuevas respuestas en temas suscritos]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.post.quote"><![CDATA[Notificarme cuando me citen]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.post.mention"><![CDATA[Notificarme cuando me mencionen]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.likeablePost.notification.like"><![CDATA[Notificarme cuando alguien reaccione a mis posts]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.thread.thread"><![CDATA[Notificarme nuevos temas en foros suscritos]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.moderation.post.moderate"><![CDATA[Notificarme cuando mi post sea moderado]]></item>
-		<item name="wcf.user.notification.com.woltlab.wbb.moderation.thread.moderate"><![CDATA[Notificarme cuando mi tema sea moderado]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.post.post"><![CDATA[Nueva respuesta en un tema suscrito]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.post.quote"><![CDATA[Has sido citado]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.post.mention"><![CDATA[Has sido mencionado]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.likeablePost.notification.like"><![CDATA[Reacción a tu post]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.thread.thread"><![CDATA[Nuevo tema en un foro suscrito]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.moderation.post.moderate"><![CDATA[Tu post ha sido moderado]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.moderation.thread.moderate"><![CDATA[Tu tema ha sido moderado]]></item>
 	</category>
 	<category name="wcf.user.option">
 		<item name="wcf.user.option.postsPerPage"><![CDATA[Posts por página]]></item>
