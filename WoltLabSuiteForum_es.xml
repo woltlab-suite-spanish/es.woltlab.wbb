@@ -179,7 +179,7 @@
 		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[Total de posts mayor de]]></item>
 	</category>
 	<category name="wbb.board">
-		<item name="wbb.board.clicks"><![CDATA[Clicks]]></item>
+		<item name="wbb.board.clicks"><![CDATA[Clics]]></item>
 		<item name="wbb.board.displayOptions"><![CDATA[Opciones de visualización]]></item>
 		<item name="wbb.board.externalURL.title"><![CDATA[Reenviado a: {$boardNode->getBoard()->externalURL}]]></item>
 		<item name="wbb.board.filterByDate"><![CDATA[Periodo de tiempo]]></item>
