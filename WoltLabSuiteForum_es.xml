@@ -135,7 +135,7 @@
 		<item name="wbb.acp.rssFeed.cycleTime.604800"><![CDATA[Cada 7 días]]></item>
 		<item name="wbb.acp.rssFeed.cycleTime.description"><![CDATA[El canal RSS buscará nuevas entradas en función de la frecuencia configurada.]]></item>
 		<item name="wbb.acp.rssFeed.maxResults"><![CDATA[Máximo de nuevas entradas]]></item>
-		<item name="wbb.acp.rssFeed.maxResults.description"><![CDATA[El número máximo de nuevas entradas RSS obtenidas con cada ejecución. Usa 0 para desactivarlo. Se recomienda limitar el número de canales RSS que proporcionan rápidamente muchas entradas.]]></item>
+		<item name="wbb.acp.rssFeed.maxResults.description"><![CDATA[El número máximo de nuevas entradas de la fuente RSS que se importan en cada ejecución. Usa 0 para aplicar el límite predeterminado de 100 entradas. Las entradas restantes se importarán en las siguientes ejecuciones.]]></item>
 		<item name="wbb.acp.rssFeed.threadData"><![CDATA[Datos del tema]]></item>
 		<item name="wbb.acp.rssFeed.board"><![CDATA[Foro de destino]]></item>
 		<item name="wbb.acp.rssFeed.board.description"><![CDATA[Los temas se crearán en el foro seleccionado.]]></item>
