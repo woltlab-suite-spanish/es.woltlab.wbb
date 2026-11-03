@@ -4,9 +4,9 @@ Idioma español para **WoltLab Suite Forum**, desarrollado por [WoltLab GmbH](ht
 
 ## 🔎 Estado de la traducción
 
-- **Última revisión:** 20.10.2026
-- **Versión del software:** 6.2.8
-- **Estado:** Revisado sin cambios (versión 6.2.8)
+- **Última revisión:** 03.11.2026
+- **Versión del software:** 6.2.9
+- **Estado:** Revisado sin cambios (versión 6.2.9)
 
 ## 📥 Archivos de idioma disponibles
 * [WoltLab Suite Core](https://github.com/woltlab-suite-spanish/es.woltlab.wcf)
